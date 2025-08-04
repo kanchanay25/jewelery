@@ -209,6 +209,8 @@ const products: Product[] = [
   }
 ];
 
+
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const category = searchParams.get('category');
