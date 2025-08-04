@@ -16,6 +16,8 @@ export interface Product {
   weight?: string;
 }
 
+
+
 // Mock product data
 const products: Product[] = [
   // Rings
